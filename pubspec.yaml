@@ -1,7 +1,7 @@
 name: concur
 description: Help your Web Workers get on the same page with Concur!
 version: 0.1.0
-# homepage: https://www.example.com
+repository: https://github.com/cthonianmessiah/concur
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
