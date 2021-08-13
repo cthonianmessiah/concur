@@ -1,7 +1,7 @@
 @TestOn('browser')
 
 import 'dart:async';
-import 'dart:html';
+//import 'dart:html';
 
 import 'package:concur/concur.dart';
 import 'package:test/test.dart';

@@ -1,6 +1,6 @@
 name: concur
-description: Help your Web Workers get on the same page with Concur!
-version: 0.1.1
+description: A helper for making multithreaded web applications using Web Workers.  Seamlessly downgrades to async on one thread when asked or when Web Workers are not supported.
+version: 0.1.2
 repository: https://github.com/cthonianmessiah/concur
 
 environment:

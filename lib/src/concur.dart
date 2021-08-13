@@ -67,7 +67,8 @@ abstract class Concur extends Object {
     // Concur object.
     var validWorkers = workers.keys.toSet();
 
-    if (useWorkers) {
+    // Only try to use workers if asked to do so and they are supported.
+    if (useWorkers && Worker.supported) {
       // Web Workers enabled, this is where it gets interesting!
       // This block runs for each worker, but we use magic to figure out which
       // one is on the main thread and which ones need to wait for an identity
